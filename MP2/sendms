@@ -1,0 +1,2 @@
+#!/bin/bash
+./manager_send 1 send 7 hello

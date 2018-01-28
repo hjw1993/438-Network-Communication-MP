@@ -1,0 +1,5 @@
+#!/bin/bash
+perl make_topology.pl example_topology/topoexample.txt
+./ls_router 2 example_topology/test2initcosts2 log2.txt&
+./ls_router 1 example_topology/test2initcosts1 log1.txt&
+./ls_router 5 example_topology/test2initcosts5 log5.txt&
